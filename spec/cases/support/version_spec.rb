@@ -1,4 +1,3 @@
-require 'support/version'
 describe NRB::Support do
 
   it 'responds to version' do
