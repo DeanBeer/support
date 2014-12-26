@@ -8,8 +8,7 @@ Gem::Specification.new do |s|
   s.version       = NRB::Support.version
   s.authors       = ["Dean Brundage"]
   s.email         = ["dean@newrepublicbrewing.com"]
-  s.summary       = %q{TODO: Write a short summary. Required.}
-  s.description   = %q{TODO: Write a longer description. Optional.}
+  s.summary       = %q{Library used by New Republic Brewing Co}
   s.homepage      = ""
   s.license       = "GPL-3"
 
@@ -26,13 +25,22 @@ Gem::Specification.new do |s|
   s.files = [
               'README.md',
               'LICENSE',
+              'lib/ruby_unit_extension.rb',
               'lib/support.rb',
+              'lib/support/brand_name_parser.rb',
+              'lib/support/concern.rb',
+              'lib/support/package_type_parser.rb',
+              'lib/support/package_volume_parser.rb',
               'lib/support/version.rb'
             ]
 
 
   s.test_files = [
+                   'spec/cases/support/brand_name_parser_spec.rb',
+                   'spec/cases/support/package_type_parser_spec.rb',
+                   'spec/cases/support/package_volume_parser_spec.rb',
                    'spec/cases/support/version_spec.rb',
+                   'spec/cases/support_spec.rb',
                    'spec/spec_helper.rb'
                  ]
 
