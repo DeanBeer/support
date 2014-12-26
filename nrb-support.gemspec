@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'nrb/support/version'
+require 'support/version'
 
 Gem::Specification.new do |s|
   s.name          = "nrb-support"
@@ -15,6 +15,8 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>=2'
 
+  s.add_runtime_dependency 'ruby-units'
+
   s.add_development_dependency "bundler"
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "rake"
@@ -24,8 +26,8 @@ Gem::Specification.new do |s|
   s.files = [
               'README.md',
               'LICENSE',
-              'lib/nrb/support.rb',
-              'lib/nrb/support/version.rb'
+              'lib/support.rb',
+              'lib/support/version.rb'
             ]
 
 
