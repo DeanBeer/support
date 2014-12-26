@@ -1,31 +1,9 @@
-# Nrb::Support
-
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'nrb-support'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install nrb-support
-
-## Usage
-
-TODO: Write usage instructions here
+# NRB::Support
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/nrb-support/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
+1. [Fork me](https://github.com/NewRepublicBrewing/nrb-support/fork)
+2. Create your feature branch (`git checkout -b my-beer-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
+4. Push to the branch (`git push origin my-beer-feature`)
 5. Create a new Pull Request
