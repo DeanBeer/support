@@ -15,7 +15,7 @@ module NRB; module Support
           'Kadigan'     => /kadigan/i,
           'Seasonal'    => /seasonal/i,
           'Skylight'    => /skylight/i,
-          'Warimono'    => /wari/i,
+          'Warimono'    => /wari-?mono/i,
           'Whipsaw'     => /whipsaw/i,
           'Windlass'    => /windlass/i
         }

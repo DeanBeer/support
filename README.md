@@ -1,5 +1,9 @@
 # NRB::Support
 
+`gem 'nrb-support'
+
+`require 'nrb/support'`
+
 ## Contributing
 
 1. [Fork me](https://github.com/NewRepublicBrewing/nrb-support/fork)

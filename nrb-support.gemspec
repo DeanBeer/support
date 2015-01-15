@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors       = ["Dean Brundage"]
   s.email         = ["dean@newrepublicbrewing.com"]
   s.summary       = %q{Library used by New Republic Brewing Co}
-  s.homepage      = ""
+  s.homepage      = "https://github.com/NewRepublicBrewing/support"
   s.license       = "GPL-3"
 
   s.required_ruby_version = '>=2'
@@ -20,18 +20,17 @@ Gem::Specification.new do |s|
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
-  s.add_development_dependency "shoulda-matchers"
 
   s.files = [
               'README.md',
               'LICENSE',
-              'lib/ruby_unit_extension.rb',
-              'lib/support.rb',
-              'lib/support/brand_name_parser.rb',
-              'lib/support/concern.rb',
-              'lib/support/package_type_parser.rb',
-              'lib/support/package_volume_parser.rb',
-              'lib/support/version.rb'
+              'lib/nrb/ruby_unit_extension.rb',
+              'lib/nrb/support.rb',
+              'lib/nrb/support/brand_name_parser.rb',
+              'lib/nrb/support/concern.rb',
+              'lib/nrb/support/package_type_parser.rb',
+              'lib/nrb/support/package_volume_parser.rb',
+              'lib/nrb/support/version.rb'
             ]
 
 
